@@ -1,0 +1,92 @@
+.container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    row-gap: 15px;
+    max-width: 400px;
+    z-index: 5;    
+}
+
+.formWrapper {
+    animation: formAppear 0.5s forwards;
+}
+
+@keyframes formAppear {
+
+    0% { opacity: 0; }
+    
+}
+
+.phoneBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    padding: 13px;
+    border: none;
+    border-radius: 50%;
+    background: rgb(250, 90, 10);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+    animation: btnAppear 0.5s forwards, ring 3000ms 1s ease-in-out infinite;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.phoneBtnActive {
+    background: white;
+    animation: none;
+}
+
+@keyframes btnAppear {
+
+    0% {
+        transform: scale(0);
+    }
+
+}
+
+@keyframes ring {
+
+    20% {
+        transform: scale(1.15) rotate(20deg);
+    }
+    40% {
+        transform: scale(1) rotate(0deg);
+    }
+    60% {
+        transform: scale(1.15) rotate(-20deg);
+    }
+    80% {
+        transform: scale(1) rotate(0deg);
+    }
+
+}
+
+.ringPhoneImg {
+    width: 100%;
+}
+
+.xPhoneImg {
+    width: 60%;
+}
+
+@media screen and (max-width: 980px) {
+    
+    .container {
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .phoneBtn {
+        width: 50px;
+        height: 50px;
+        padding: 11px;
+    }
+
+}

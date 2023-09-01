@@ -1,0 +1,146 @@
+
+/* <------------------- General Section Settings -------------------> */
+
+.sectionContainer {
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    padding: 120px 25px;
+}
+
+
+/* <------------------- Section Title part -------------------> */
+
+.sectionTitle {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0 25px;
+    margin-bottom: 50px;
+}
+
+
+/* <------------------- Promo part -------------------> */
+
+.promoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    width: 100%;
+    max-width: 1140px;
+    background: rgb(26, 26, 26);
+}
+
+.description {
+    font-size: 22px;
+    font-weight: 300;
+    max-width: 580px;
+    text-align: center;
+    color: white;
+}
+
+
+/* <------------------- Articles part -------------------> */
+
+.articlesBlock {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 30px;
+}
+
+.articleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    max-width: 360px;
+    text-align: center;
+}
+
+.articleCover {
+    width: 100%;
+    user-select: none;
+}
+
+.articleTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.articleBrief {
+    font-weight: 300;
+    height: 50px;
+}
+
+.readBtn{
+    border: 2px solid rgb(250, 90, 10);
+    border-radius: 4px;
+    background: transparent;
+    color: rgb(250, 90, 10);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 30px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.readBtn:hover {
+    background: rgb(250, 90, 10);
+    color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.readBtn:active {
+    box-shadow: initial;
+}
+
+
+/* <------------------- Regulate the responsive behaviour -------------------> */
+
+@media screen and (max-width: 980px) {
+
+    .sectionContainer {
+        row-gap: 30px;
+        padding: 100px 20px;
+    }
+
+    .sectionTitle {
+        font-size: 30px;
+    }
+
+    .promoContainer {
+        flex-direction: column;
+        row-gap: 30px;
+        max-width: 500px;
+        padding: 20px 20px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .articlesBlock {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .articleContainer {
+        max-width: 500px;
+    }
+
+    .articleTitle {
+        font-size: 18px;
+    }
+
+    .articleBrief {
+        height: initial;
+    }
+
+}

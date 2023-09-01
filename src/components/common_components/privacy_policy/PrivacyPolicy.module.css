@@ -1,0 +1,73 @@
+.policyContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    padding: 40px;
+    text-align: start;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.subNumber {
+    font-weight: 700;
+}
+
+.list {
+    padding-left: 60px;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.tableData {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    
+    .policyContainer {
+        row-gap: 30px;
+        padding: 22px;
+    }
+
+    .paragraph {
+        row-gap: 15px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+    
+    .content {
+        row-gap: 8px;
+        font-size: 15px;
+    }
+    
+    .list {
+        padding-left: 35px;
+    }
+    
+    .tableData {
+        padding: 8px;
+    }
+    
+}

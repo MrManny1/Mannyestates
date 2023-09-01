@@ -1,0 +1,111 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 370px;
+    min-width: 330px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.successMessage, .errorMessage {
+    text-align: center;
+    font-weight: 300;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.successMessage {
+    background: rgb(175, 255, 175);
+}
+
+.errorMessage {
+    background: rgb(255, 175, 175);
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.telephones {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.tel {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nameInput {
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    background-color: rgb(230, 230, 230);
+    font-size: 16px;
+    transition: all 0.2s;
+}
+
+.nameInput:focus {
+    outline: none;
+    background-color: white;
+    border-color: rgba(255, 69, 0, 0.5);
+    box-shadow: 0px 0px 10px rgba(255, 69, 0, 0.5);
+}
+
+.callbackBtn {
+    color: white;
+    background-color: rgb(250, 90, 10);
+    border: none;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.callbackBtn:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.callbackBtn:active {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.0);
+}
+
+.callbackBtn:disabled {
+    cursor: not-allowed;
+    opacity: 0.25;
+}
+
+.agreeCheck {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    font-size: 14px;
+}
+
+.privacyPolicy {
+    text-decoration: underline;
+    color: rgb(0, 0, 200);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 980px) {
+
+    .container {
+        max-width: 600px;
+    }
+}

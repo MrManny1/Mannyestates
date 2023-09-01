@@ -1,0 +1,54 @@
+
+/* <------------------- General Section Settings -------------------> */
+
+.sectionContainer {
+    min-height: 100vh;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    align-items: center;
+    padding: 120px 0;
+}
+
+
+/* <------------------- Section Title part -------------------> */
+
+.sectionTitle {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.orangeText {
+    color: rgb(250, 90, 10);
+}
+
+.subTitle {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+/* <------------------- Regulate the responsive behavior -------------------> */
+
+@media screen and (max-width: 980px) {
+
+    .sectionContainer {
+        row-gap: 20px;
+        padding: 100px 0;
+    }
+
+    .sectionTitle {
+        font-size: 30px;
+    }
+    
+    .subTitle {
+        font-size: 20px;
+    }
+
+}

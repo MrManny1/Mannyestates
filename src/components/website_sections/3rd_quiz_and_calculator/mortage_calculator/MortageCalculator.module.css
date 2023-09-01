@@ -1,0 +1,41 @@
+.calculatorContainer {
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    padding: 20px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.result {
+    font-size: 20px;
+}
+
+.amount {
+    font-weight: 700;
+    color: rgb(250, 90, 10);
+}
+
+@media screen and (max-width: 640px) {
+
+    .calculatorContainer {
+        row-gap: 18px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .result {
+        font-size: 18px;
+    }
+    
+}

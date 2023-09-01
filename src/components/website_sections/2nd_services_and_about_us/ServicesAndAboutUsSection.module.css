@@ -1,0 +1,260 @@
+
+/* <------------------- General Section Settings -------------------> */
+
+.sectionContainer {
+    min-height: 100vh;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    align-items: center;
+    padding: 120px 0;
+}
+
+
+/* <------------------- Section Title part -------------------> */
+
+.sectionTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 40px;
+    padding: 0 20px;
+    max-width: 560px;
+}
+
+.bigText {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.smallText {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+/* <------------------- Cards Block part -------------------> */
+
+.cardsBlock {
+    display: flex;
+    column-gap: 2.5%;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 280px;
+    background-color: white;
+    text-align: center;
+}
+
+.cardTitle {
+    font-size: 22px;
+    font-weight: bold;
+    min-height: 120px;
+    line-height: 1.35;
+}
+
+.cardBrief {
+    font-size: 14px;
+    text-decoration: underline;
+    line-height: 1.55;
+    min-height: 66px;
+}
+
+.cardPrice {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(250, 90, 10);
+    min-height: 37px;
+}
+
+.cardDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+.checkMark {
+    color: rgb(250, 90, 10);
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 0;
+}
+
+
+/* <------------------- About Us part -------------------> */
+
+.aboutUs {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    column-gap: 30px;
+    padding: 0 20px;
+    max-width: 1400px;
+}
+
+.aboutUsTextBlock {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    align-items: center;
+    text-align: center;
+}
+
+.aboutUsDesc {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.aboutUsTitle {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.aboutUsDescText {
+    font-size: 20px;
+    line-height: 1.55;
+    max-width: 580px;
+}
+
+.aboutUsValues {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    row-gap: 120px;
+}
+
+.aboutUsValue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.valueSymbol {
+    width: 60px;
+}
+
+.valueTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.aboutUsImg {
+    width: 100%;
+    max-width: 581px;
+    height: 804px;
+}
+
+.aboutUsImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+/* <------------------- Regulate the responsive behaviour -------------------> */
+
+@media screen and (max-width: 980px) {
+
+    .sectionContainer {
+        row-gap: 20px;
+        padding: 100px 0;
+    }
+
+    .bigText {
+        font-size: 30px;
+    }
+
+    .smallText {
+        font-size: 20px;
+        line-height: 1.4;
+        max-width: 450px;
+    }
+
+    .cardsBlock {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .card {
+        max-width: 600px;
+        row-gap: 10px;
+    }
+
+    .cardTitle {
+        min-height: 0;
+    }
+    
+    .cardBrief {
+        min-height: 0;
+        margin-bottom: 30px;
+    }
+    
+    .cardPrice {
+        min-height: 0;
+    }
+
+    .aboutUs {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+        max-width: 800px;
+    }
+
+    .aboutUsTitle {
+        font-size: 30px;
+    }
+
+    .aboutUsValues {
+        column-gap: 40px;
+        row-gap: 60px;
+    }
+
+    .aboutUsImg {
+        max-width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .aboutUsDescText {
+        font-size: 16px;
+    }
+
+    .valueSymbol {
+        width: 40px;
+    }
+    
+    .valueTitle {
+        font-size: 16px;
+    }
+
+    .valueDesc {
+        font-size: 14px;
+    }
+
+}

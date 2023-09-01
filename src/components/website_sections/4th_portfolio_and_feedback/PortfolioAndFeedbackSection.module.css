@@ -1,0 +1,104 @@
+
+/* <------------------- General Section Settings -------------------> */
+
+.sectionContainer {
+    min-height: 100vh;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    flex-direction: column;
+    row-gap: 120px;
+    align-items: center;
+    padding: 120px 0;
+}
+
+
+/* <------------------- Portfolio Section -------------------> */
+
+.portfolioBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 80px;
+}
+
+.sectionTitle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.bigText {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.smallText {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.picturesBlock {
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.imgDiv {
+    width: 374px;
+    padding-bottom: 15px;
+}
+
+.appartmentImg {
+    width: 100%;
+}
+
+
+/* <------------------- Feedback Section -------------------> */
+
+.feedbackBlock {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+
+
+/* <------------------- Regulate the responsive behavior -------------------> */
+
+@media screen and (max-width: 1300px) {
+    
+    .picturesBlock {
+        column-count: 2;
+        padding: 0 80px;
+    }
+    
+    .imgDiv {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    .sectionContainer {
+        row-gap: 80px;
+        padding: 100px 0;
+    }
+
+    .bigText {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .picturesBlock {
+        padding: 0 20px;
+        column-gap: 10px;
+    }
+
+    .imgDiv {
+        padding-bottom: 5px;
+    }
+
+}

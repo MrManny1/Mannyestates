@@ -1,0 +1,136 @@
+.sliderContainer {
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 15px 30px;
+    font-weight: 300;
+    transition: all 0.2s;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.rangeSlider {
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    user-select: none;
+    letter-spacing: 0.5px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 0.3em;
+    outline: none;
+    border-radius: 3px;
+    background: rgb(221, 221, 221);
+    border: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    background-color: transparent;
+    width: 1.7em;
+    height: 1.7em;
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+}
+
+.sliderThumb {
+    position: absolute;
+    width: 1.3em;
+    height: 1.3em;
+    background: rgb(250, 90, 10);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.sliderThumb::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0.7em;
+    height: 0.7em;
+    background: rgb(250, 90, 10);
+    border-radius: inherit;
+    transition: 0.3s;
+}
+
+.rangeSlider:hover .sliderThumb:before {
+    background: white;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 0 10px;
+    height: 2em;
+    top: -1.5em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.progress {
+    width: 50%;
+    height: 0.3em;
+    border-radius: 3px;
+    background: rgb(250, 90, 10);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    pointer-events: none;
+}
+
+.values {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 640px) {
+
+    .sliderContainer {
+        border-radius: 10px;
+        row-gap: 10px;
+        padding: 10px 40px;
+    }
+
+    .rangeSlider {
+        margin-top: 35px;
+        font-size: 14px;
+    }
+
+    .tooltip {
+        padding: 0 5px;
+        height: 1.6em;
+        line-height: 22px;
+        font-size: 14px;
+    }
+
+    .values {
+        font-size: 14px;
+    }
+
+}
