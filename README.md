@@ -1,5 +1,7 @@
 # Real estate agency landing page website
 
+![Snippet screenshot](snippet_for_readme.jpg)
+
 ## Fully functional example project written in React JS and native CSS
 
 This project is an English language adaptation of an original russian language version which I wrote as a freelance order for a real estate agency in Saint-Petersburg. This example is fully functional as it is, although the pictures, personal details and namings are replaced with the random ones.
