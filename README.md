@@ -1,8 +1,8 @@
 # Real estate agency landing page website
 
-## Fully functional example project written in React JS and native CSS.
+## Fully functional example project written in React JS and native CSS
 
-This project is an English language adaptation of an original russian language version which was written as a freelance order for a real estate agency in Saint-Petersburg. This example is fully functional as it is, although the pictures, personal details and namings are replaced with the random ones from the internet.
+This project is an English language adaptation of an original russian language version which I wrote as a freelance order for a real estate agency in Saint-Petersburg. This example is fully functional as it is, although the pictures, personal details and namings are replaced with the random ones.
 
 ## Brief overview of functionality and purpose
 
@@ -15,10 +15,27 @@ Those interactive functionalities are as follows:
 * **Quiz.** Potential client is offered to take a short questionary regarding the real estate he/she is interested in. It offers free feedback or consultation, prepared specificly for the client depending on the answers that were left in a questionary.
 * **Mortage Calculator.** Interactive calculator with few customized range inputs, that allows client to calculate the amount of monthly mortage payment, depending on the total cost of the estate, initial payment, inerest rate and the loan term. Calculator uses annuity formula commonly used on russian real estate market.
 * **Feedback carousel.** Carousel with screenshots/cards, containing feedback comments from previous customers.
-* **Navbar** that lists and allows navigation throughout key sections of the site.
+* **Navbar** that lists and allows navigation throughout key sections of the website.
 
 All the fillable forms have validation and **Privacy Policy** checkbox, so that it complies with personal info handling policy. Submit button only becomes active to be clicked when fields contain data and **Privacy Policy** checkbox is checked.
 
+## Installation and structure
+
+Brief description on how the project is structured and what additional libraries it uses.
+
+### Axios
+All the fillable forms collect the information and send it to the **[Telegram Bot API](https://core.telegram.org/bots/api)**.
+So the ownerof the website gets notified every time the potential client filles out any form or spins the Lucky Wheel or takes a quiz. This is achieved with a regular POST request as described in documentation available via the link above. So I used **[Axios](https://axios-http.com/docs/intro)** library instead of a JS fetch functionality.
+
+Quick start with axios using npm: `npm install axios`. Additional info avaialble via link above.
+
+### Swiper
+Feedback cards carousel is configured using **[Swiper](https://swiperjs.com/react)**. Easy to use, a lot of configuration options.
+
+Quick start with swiper using npm: `npm install swiper`. Additional info avaialble via link above.
+
+### Styles
+No additional styles libraries are used. I only used native CSS and **module CSS files** to gonfigure the styles.
 
 # Getting Started with Create React App
 
