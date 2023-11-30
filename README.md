@@ -8,7 +8,7 @@ This project is an English language adaptation of an original russian language v
 
 **Deployed English version** - [https://homesweethome-agency.netlify.app](https://homesweethome-agency.netlify.app)
 
-**Deployed Russian version** - [https://homesweethome-agency.netlify.app](http://spbhome24.ru)
+**Deployed Russian version** - [http://spbhome24.ru](http://spbhome24.ru)
 
 ## Brief overview of functionality and purpose
 
