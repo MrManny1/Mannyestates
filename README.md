@@ -8,6 +8,8 @@ This project is an English language adaptation of an original russian language v
 
 **Deployed English version** - [https://homesweethome-agency.netlify.app](https://homesweethome-agency.netlify.app)
 
+**Deployed Russian version** - [https://homesweethome-agency.netlify.app](http://spbhome24.ru)
+
 ## Brief overview of functionality and purpose
 
 Website like this is designed to attract customers to the specific real estate agency. It contains valuable information on why people should choose this agency over others in the market and so on. So, in order to get attention there are some interactive components included to persuade potential customers to leave their personal info (such as name and telephone number) and ask for a callback. 
