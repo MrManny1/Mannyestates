@@ -127,7 +127,7 @@
 
 .learnMoreBtn:hover {
     opacity: 1;
-    border: 2px solid rgb(250, 90, 10);
+    border: 2px solid rgba(20, 224, 30, 0.822);
     background-color: rgba(250, 90, 10, 0.8);
 }
 
@@ -177,7 +177,7 @@
     }
     
     .learnMoreBtn:hover {
-        background-color: rgb(250, 90, 10);
+        background-color: rgba(20, 224, 30, 0.822);
     }
 
 }

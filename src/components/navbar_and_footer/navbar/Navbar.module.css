@@ -60,7 +60,7 @@
 .navbarLinks:hover {
     background-color: hsla(0, 0%, 100%, 0.2);
     border-radius: 8px;
-    color: rgb(250, 90, 10);
+    color: rgba(20, 224, 30, 0.822);
     
     cursor: pointer;
 }

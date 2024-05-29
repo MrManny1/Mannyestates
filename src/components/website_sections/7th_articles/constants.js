@@ -4,8 +4,8 @@ import coverThree from "./images/3rd_article_cover.jpg";
 
 export const articles = [
     
-    {   id: 1, img: coverOne,   title: "Are you ready to say goodbye to maternal capital in 2023?", 
-        brief: "Many people do not know that by saving the maternal capital today, they might..."   
+    {   id: 1, img: coverOne,   title: "Are you ready to buy your own house in 2024?", 
+        brief: "Many people do not know how important it is to invest in real estate..."   
     },
     {   id: 2, img:coverTwo,    title: "Learn what are the keypoints of this investment method", 
         brief: "Do you know what is \"Flipping\"? If not, then..."   

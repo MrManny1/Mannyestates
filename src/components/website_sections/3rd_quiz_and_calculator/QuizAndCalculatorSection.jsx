@@ -26,7 +26,7 @@ export const QuizAndCalculatorSection = forwardRef(
 
                 <div className={classes.sectionTitle}>
 
-                    Take a quick questionary and we will answer all Your questions for free
+                    Pause and ask some questions and we will answer all Your questions for free
 
                 </div>
 
@@ -43,7 +43,7 @@ export const QuizAndCalculatorSection = forwardRef(
                 <div className={classes.aboutUs}>
 
                     <p className={classes.aboutUsTitle}>
-                        Why people come to Us
+                        Why people choose Us
                     </p>
 
                     <div className={classes.aboutUsValues}>

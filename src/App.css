@@ -34,10 +34,10 @@ input[type="checkbox"] {
   margin: 0;
 
   font: inherit;
-  color: rgb(250, 90, 10);
+  color: rgba(20, 224, 30, 0.822);
   width: 1.15em;
   height: 1.15em;
-  border: 0.15em solid rgb(250, 90, 10);
+  border: 0.15em solid rgba(20, 224, 30, 0.822);
   border-radius: 0.15em;
   display: grid;
   place-content: center;
@@ -53,7 +53,7 @@ input[type="checkbox"]::before {
   transform: scale(0);
   transform-origin: center;
   transition: 120ms transform ease-in-out;
-  background-color: rgb(250, 90, 10);
+  background-color: rgba(20, 224, 30, 0.822);
 }
 
 input[type="checkbox"]:checked::before {

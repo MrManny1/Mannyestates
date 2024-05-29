@@ -12,7 +12,7 @@ export const EstimateCostSection = forwardRef(
 
                 <div className={classes.sectionTitle}>
 
-                    <p><span className={classes.orangeText}>Estimate the cost </span> of the estate</p>
+                    <p><span className={classes.orangeText}>Estimate the cost </span> of the property</p>
 
                     <p className={classes.subTitle}>Send us your telephone number to get a free consultation</p>
 

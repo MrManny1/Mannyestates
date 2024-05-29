@@ -20,13 +20,13 @@ export const Footer = forwardRef(
                     <div className={classes.telephones}>
 
                         <p>
-                            <span className={classes.telNumber}>+7 (999) 777-77-77 </span> 
-                            John Dow
+                            <span className={classes.telNumber}>+(234)7015682945 </span> 
+                            Emmanuel Oladepo
                         </p>
                         
                         <p>
-                            <span className={classes.telNumber}>+7 (333) 888-88-88 </span>
-                            Haley Baley
+                            <span className={classes.telNumber}>+(234)8109784562 </span>
+                            David Ayokanmi
                         </p>
 
                     </div>
@@ -51,8 +51,8 @@ export const Footer = forwardRef(
 
                     <div className={classes.brandBlock}>
 
-                        <p>Home Sweet Home Company</p>
-                        <p>Real Estate Agency</p>
+                        <p>Manny Estates</p>
+                        <p>Real Estate Company</p>
 
                     </div>
 

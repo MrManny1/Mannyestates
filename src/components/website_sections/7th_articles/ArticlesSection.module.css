@@ -80,10 +80,10 @@
 }
 
 .readBtn{
-    border: 2px solid rgb(250, 90, 10);
+    border: 2px solid rgba(20, 224, 30, 0.822);
     border-radius: 4px;
     background: transparent;
-    color: rgb(250, 90, 10);
+    color: rgba(20, 224, 30, 0.822);
     font-size: 16px;
     font-weight: bold;
     padding: 8px 30px;
