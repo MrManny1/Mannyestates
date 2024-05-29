@@ -145,7 +145,7 @@
 }
 
 .errorMessage {
-    background: rgb(255, 175, 175);
+    background: rgb(95, 218, 101);
 }
 
 .title {
@@ -156,13 +156,13 @@
 .promotion {
     display: flex;
     flex-direction: column;
-    color: rgb(250, 90, 10);
+    color: rgba(20, 224, 30, 0.822);
     margin: 10px 0;
 }
 
 .spinBtn {
     color: white;
-    background-color: rgb(250, 90, 10);
+    background-color: rgba(20, 224, 30, 0.822);
     border: none;
     font-size: 18px;
     padding: 18px;

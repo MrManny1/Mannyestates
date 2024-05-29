@@ -30,7 +30,7 @@
     padding: 13px;
     border: none;
     border-radius: 50%;
-    background: rgb(250, 90, 10);
+    background: rgba(20, 224, 30, 0.822);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     transition: all 0.3s;
     animation: btnAppear 0.5s forwards, ring 3000ms 1s ease-in-out infinite;
