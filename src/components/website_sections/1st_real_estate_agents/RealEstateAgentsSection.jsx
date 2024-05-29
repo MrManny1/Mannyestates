@@ -14,12 +14,12 @@ export const RealEstateAgentsSection = () => {
                     <div className={classes.textBlock}>
 
                         <p className={classes.titleBig}>
-                            <span className={classes.orangeTitleText}>Real estate agents</span> in Saint-Petersburg
+                            <span className={classes.orangeTitleText}>Real estate agents</span> in Lagos and Abuja, Nigeria
                         </p>
 
                         <div className={classes.titleSmall}>
                             <span className={classes.orangeTitleText}>Real estate agents</span> 
-                            <p className={classes.whiteTitleText}>in Saint-Petersburg</p>
+                            <p className={classes.whiteTitleText}>in Nigeria</p>
                         </div>
 
                         <ul className={classes.descriptionList}>
@@ -35,11 +35,11 @@ export const RealEstateAgentsSection = () => {
                             </li>
 
                             <li>
-                                We will help you benefit by investing into real estate
+                                We can help you benefit by investing into real estate
                             </li>
                             
                             <li>
-                                We will help you sell your estate quikly and profitably
+                                We can help you sell your estate quikly and profitably
                             </li>
 
                         </ul>

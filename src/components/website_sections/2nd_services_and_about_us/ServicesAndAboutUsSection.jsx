@@ -20,8 +20,8 @@ export const ServicesAndAboutUsSection = forwardRef(
                     </div>
 
                     <div className={classes.smallText}>
-                        All kind of services for selection of newly built apartments are provided free of charge.
-                        For selection of secondary housing price is negotiable.
+                        All kind of services for selection of newly built Houses are provided for free.
+                        Selection of secondary housing price is negotiable.
                     </div>
 
                 </div>
@@ -94,8 +94,8 @@ export const ServicesAndAboutUsSection = forwardRef(
 
                             <div className={classes.aboutUsDescText}>
                                 Welcome in the most honest community about sqare meters!
-                                We are John Dow and Haley Baley - experts in the field of 
-                                real estate in Saint-Petersburg.
+                                We are Emmanuel Oladepo and David Ayokanmi - experts in the field of 
+                                real estate in Lagos and Abuja, Nigeria.
                             </div>
 
                         </div>
