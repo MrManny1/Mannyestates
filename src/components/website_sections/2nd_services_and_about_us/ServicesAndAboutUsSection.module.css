@@ -79,7 +79,7 @@
 .cardPrice {
     font-size: 30px;
     font-weight: bold;
-    color: rgb(250, 90, 10);
+    color: rgba(20, 224, 30, 0.822);
     min-height: 37px;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .checkMark {
-    color: rgb(250, 90, 10);
+    color: rgba(20, 224, 30, 0.822);
     font-size: 24px;
     font-weight: bold;
     line-height: 0;
