@@ -1,12 +1,9 @@
-# Real estate agency landing page website
-
-![Snippet screenshot](snippet_for_readme.jpg)
+# Manny Estates landing page website
 
 ## Fully functional example project written in React JS and native CSS
 
 This project is an English language adaptation of an original russian language version which I wrote as a freelance order for a real estate agency in Saint-Petersburg. This example is fully functional as it is, although the pictures, personal details and namings are replaced with the random ones.
 
-**Deployed English version** - [https://homesweethome-agency.netlify.app](https://homesweethome-agency.netlify.app)
 
 
 ## Brief overview of functionality and purpose
@@ -17,7 +14,7 @@ Those interactive functionalities are as follows:
 
 * **Giftbox with Lucky Wheel** with prizes. In order to spin it and get a prize client has to leave a phone number which can be used to contact him/her.
 * **Callback form.** Normal regular callback form used in a few places of a page, asking client to leave a number if he/she has any questions. It offers free consultation on any matter of interest in regards with agency's field of work.
-* **Quiz.** Potential client is offered to take a short questionary regarding the real estate he/she is interested in. It offers free feedback or consultation, prepared specificly for the client depending on the answers that were left in a questionary.
+* **Quiz.** Potential client is offered to ask questions regarding the real estate he/she is interested in. It offers free feedback or consultation, prepared specificly for the client depending on the answers that were left in a questionary.
 * **Mortage Calculator.** Interactive calculator with few customized range inputs, that allows client to calculate the amount of monthly mortage payment, depending on the total cost of the estate, initial payment, inerest rate and the loan term. Calculator uses annuity formula commonly used on russian real estate market.
 * **Feedback carousel.** Carousel with screenshots/cards, containing feedback comments from previous customers.
 * **Navbar** that lists and allows navigation throughout key sections of the website.
