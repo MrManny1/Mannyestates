@@ -8,8 +8,8 @@ export const CustomPhoneInput = ({ getValues, bgColor }) => {
     const phoneRegex = /^\+[\d]{1} \([\d]{2,3}\) [\d]{2,3}-[\d]{2,3}-[\d]{2}$/;
 
     const setPhoneNumberToRuCode = () => {
-        setPhoneNumber("7");
-        phoneNumberInputHandler("7");
+        setPhoneNumber("234");
+        phoneNumberInputHandler("234");
     };
 
     const phoneNumberInputHandler = (event) => {
@@ -33,7 +33,7 @@ export const CustomPhoneInput = ({ getValues, bgColor }) => {
             onChange={phoneNumberInputHandler} 
             onFocus={setPhoneNumberToRuCode}
             specialLabel={false} 
-            placeholder="+7 (XXX) XXX-XX-XX" 
+            placeholder="+234 (XXX) XXX-XX-XX" 
             autoFormat={true}
             inputClass={classes.phoneInput}
             inputStyle={bgColor && {background: bgColor}}
