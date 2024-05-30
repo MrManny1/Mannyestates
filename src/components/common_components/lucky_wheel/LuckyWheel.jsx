@@ -32,10 +32,10 @@ export const LuckyWheel = ({ setShowPolicy }) => {
 // <-------------------------- Setting the parameters and variables for prize wheel -------------------------->
 
     const prizes = [
-        { id: 1, text: "Giftcard for 30$ at \"Big kitchen\" restaurant", color: "rgb(77, 124, 143)" },
-        { id: 2, text: "Giftcard for 30$ for stretch ceiling mounting", color: "rgb(42, 157, 144)" },
-        { id: 3, text: "Giftcard for 30$ at \"Amazon\"", color: "rgb(232, 196, 104)" },
-        { id: 4, text: "Giftcard for 30$ for windows mounting", color: "rgb(244, 164, 98)" },
+        { id: 1, text: "Giftcard of 30$ at \"Big kitchen\" restaurant", color: "rgb(77, 124, 143)" },
+        { id: 2, text: "Giftcard of 30$ for stretch ceiling mounting", color: "rgb(42, 157, 144)" },
+        { id: 3, text: "Giftcard of 30$ at \"Amazon\"", color: "rgb(232, 196, 104)" },
+        { id: 4, text: "Giftcard of 30$ for windows mounting", color: "rgb(244, 164, 98)" },
         { id: 5, text: "Family or individual Photosession", color: "rgb(231, 110, 80)" },
         { id: 6, text: "Discount of $30 for mortage insurance", color: "rgb(206, 59, 84)" }
     ];
