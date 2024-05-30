@@ -95,11 +95,11 @@ export const CallbackForm = () => {
                     <p>Or contact us yourself:</p>
 
                     <p> 
-                        <span className={classes.tel}>+7 (999) 777-77-77 </span>- John Dow
+                        <span className={classes.tel}>+(234) 7015682945 </span>- Emmanuel Oladepo
                     </p>
 
                     <p>
-                        <span className={classes.tel}>+7 (333) 888-88-88 </span>- Haley Baley
+                        <span className={classes.tel}>+(234) 8109784562 </span>- David Ayokanmi
                     </p>
 
                 </div>
@@ -126,7 +126,7 @@ export const CallbackForm = () => {
                 onClick={handleSubmit}
             >
 
-                {loading ? "Loading..." : "Free consult"}
+                {loading ? "Loading..." : "Free consultation"}
 
             </button>
 
