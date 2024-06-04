@@ -14,7 +14,7 @@ export const RealEstateAgentsSection = () => {
                     <div className={classes.textBlock}>
 
                         <p className={classes.titleBig}>
-                            <span className={classes.orangeTitleText}>Real estate agents</span> in Lagos and Abuja, Nigeria
+                            <span className={classes.orangeTitleText}>Manny Estates,</span> access real estate agents in Lagos and Abuja, Nigeria
                         </p>
 
                         <div className={classes.titleSmall}>
